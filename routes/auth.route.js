@@ -6,6 +6,7 @@ const router = express.Router();
 
 // Registration route
 router.post('/sign-up', registerUser);
+
 // Signin route
 router.post('/sign-in', signInUser);
 
